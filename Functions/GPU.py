@@ -4,6 +4,10 @@ import platform
 import subprocess
 import shutil
 
+class GPU:
+    def print_dashboard(self):
+        print("GPU dashboard")
+
 try:
     import torch
     TORCH_AVAILABLE = True
